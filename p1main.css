@@ -1,0 +1,58 @@
+*,*:before,*:after{
+  box-sizing: border-box;
+  font-family:sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+.mainheader {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom-width: 4px;
+    border-bottom-color: black
+    border-bottom-style: solid;
+
+}
+
+.featured_projects {
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+.featured_work {
+  margin-top: 30px;
+  max-width: 100%;
+
+}
+
+
+
+/*Images*/
+
+.featured_work {
+  max-width: 100%;
+}
+
+header .udacitylogo {
+  width: 100%;
+  max-width: 100px;
+  overflow: hidden;
+
+}
+
+.responsive_img {
+  height: auto;
+  max-width: 100%;
+}
+
+
+/*header*/
+
+.mainheader_name {
+  font-size: 5vw;
+}
+
+.mainheader_job {
+  font-size: 7vw;
+}

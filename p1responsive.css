@@ -1,0 +1,115 @@
+@media screen and (min-width: 450px) {
+  .mainheader_text {
+    text-align: right;
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  .featuredwork_header {
+    font-size: 6vw;
+  }
+  .mainheader_job {
+    font-size: 4vw;
+  }
+
+  .featured_img {
+    width: 100%;
+  }
+
+}
+
+/*Makes sure logo*/
+
+@media screen and (max-width: 719px) {
+  .mainheader {
+      height: 80px;
+  }
+
+  .mainheader .mainheader_text {
+    text-align: right;
+
+  }
+
+  .mainheader .mainheader_logo {
+    float: left;
+  }
+
+  .mainheader .udacitylogo {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+
+/* headers and tags*/
+
+@media screen and (min-width: 720px) {
+  .mainheader {
+    justify-content: space-between;
+    text-align: left;
+    margin: 0 auto 30px;
+  }
+
+  .mainheader_text {
+    text-align: right;
+  }
+
+  .mainheader .featurework_content {
+    display: flex;
+  }
+
+  .featurework_content {
+    margin-top: 30px
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+  }
+
+  .featured_projects {
+    width: calc (33.3% - 40px);
+    margin: 20px 20px 20px 0;
+  }
+
+  .featured_projects:last-child {
+    margin-right: 0;
+  }
+
+}
+
+/* larger screen size 750px*/
+
+@media screen and (min-width: 750px) {
+  .mainheader_name {
+    font-size: 4vw;
+  }
+ .mainheader_job {
+   font-size: 2vw;
+ }
+
+}
+
+/*larger screen size 960px */
+
+@media screen and (min-width: 960px) {
+    body {
+      width: 960px;
+      margin: 0 auto;
+    }
+    .content_image {
+      max-height: 400px;
+      overflow: hidden;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .featuredheader_projects {
+      font-size: 3vw;
+
+    }
+    .mainheader_job {
+      font-size: 1vw;
+    }
+
+}
